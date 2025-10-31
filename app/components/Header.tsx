@@ -64,17 +64,17 @@ export function Header() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="text-lg text-foreground/80 hover:text-foreground transition-colors"
+                    className="text-lg ml-4 text-foreground/80 hover:text-foreground transition-colors"
                   >
                     {item.name}
                   </a>
                 ))}
                 <div className="pt-6 border-t border-border">
-                  <a href="tel:+1234567890" className="flex items-center gap-2 mb-4">
+                  <a href="tel:+1234567890" className="flex items-center gap-2 mb-4 ml-4">
                     <Phone className="h-4 w-4" />
                     <span>(123) 456-7890</span>
                   </a>
-                  <div className="mb-4">
+                  <div className="mb-4 ml-4">
                     <LanguageSwitcher />
                   </div>
                   <Button className="w-full">{t('nav.book_now')}</Button>
