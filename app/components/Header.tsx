@@ -15,7 +15,7 @@ export function Header() {
     { name: t('nav.gallery'), href: "#gallery" },
     { name: t('nav.instructions'), href: "#instructions" },
     { name: t('nav.products'), href: "#products" },
-    { name: t('nav.testimonials'), href: "#testimonials" },
+    // { name: t('nav.testimonials'), href: "#testimonials" },
     { name: t('nav.contact'), href: "#contact" },
   ];
 
@@ -54,28 +54,28 @@ export function Header() {
           {/* Mobile Menu */}
           <Sheet>
             <SheetTrigger asChild className="md:hidden">
-              <Button variant="ghost" size="icon">
-                <Menu className="h-6 w-6" />
+              <Button variant="ghost" size="icon" className="relative">
+                <Menu className="h-7 w-7 md:h-6 md:w-6 transition-all duration-300" />
               </Button>
             </SheetTrigger>
-            <SheetContent>
+            <SheetContent className="sm:max-w-sm">
               <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
               <div className="flex flex-col gap-6 mt-8">
                 {navItems.map((item) => (
                   <a
                     key={item.name}
                     href={item.href}
-                    className="text-lg ml-4 text-foreground/80 hover:text-foreground transition-colors"
+                    className="text-lg text-center text-foreground/80 hover:text-foreground transition-colors"
                   >
                     {item.name}
                   </a>
                 ))}
                 <div className="pt-6 border-t border-border">
-                  <a href="tel:+1234567890" className="flex items-center gap-2 mb-4 ml-4">
+                  <a href="tel:+1234567890" className="flex items-center justify-center gap-2 mb-4">
                     <Phone className="h-4 w-4" />
                     <span>(123) 456-7890</span>
                   </a>
-                  <div className="mb-4 ml-4">
+                  <div className="mb-4 flex justify-center">
                     <LanguageSwitcher />
                   </div>
                   <Button className="w-full">{t('nav.book_now')}</Button>

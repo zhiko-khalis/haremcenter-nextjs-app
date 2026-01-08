@@ -95,12 +95,12 @@ export function Hero() {
       </div>
 
       {/* Mobile Bottom Content */}
-      <div className="absolute bottom-8 left-0 right-0 z-10 md:hidden">
+      <div className="absolute bottom-24 left-0 right-0 z-10 md:hidden">
         <div className="container mx-auto px-8">
           <div className="max-w-2xl mx-auto text-center">
-            <p className="text-xl text-white/90 mb-8 leading-relaxed">
+            {/* <p className="text-xl text-white/90 mb-8 leading-relaxed">
               {t('hero.subtitle')}
-            </p>
+            </p> */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
