@@ -43,7 +43,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
         'nav.book_now': 'Book Now',
         
         // Hero Section
-        'hero.title': 'Elevate Your Look with Our Expert Hair Transplant Solutions',
+        'hero.title': 'Transform Your Look with Expert Hair Transplants',
         'hero.subtitle': 'Redefining Confidence with Premium Hair Transplants in Kurdistan-Erbil',
         'hero.cta': 'Book Your Consultation',
         'hero.years_experience': 'Years Experience',
@@ -227,8 +227,8 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
         'nav.book_now': 'نووسینەوە',
         
         // Hero Section
-        'hero.title': 'ڕووکارت بگۆڕە بە تەراکی قژە جوانەکان',
-        'hero.subtitle': 'پسپۆڕی قژکێش کە تایبەت بە تەراکی قژە نایابەکانە لە کوردستان-هەولێر',
+        'hero.title': 'شێوەی خۆت بگۆڕە بە چاندنی قژی پسپۆڕانە',
+        'hero.subtitle': 'پێناسەکردنەوەی متمانە بەخۆبوون بە باشترین چاندنی قژ لە کوردستان-هەولێر',
         'hero.cta': 'ڕێکەوتەکەت دابنێ',
         'hero.years_experience': 'ساڵ ئەزموون',
         'hero.happy_clients': 'کڕیاری دڵخۆش',
@@ -399,6 +399,10 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
         'footer.follow_us': 'بەدواداچوونمان',
         'footer.rights': 'هەموو مافەکان پارێزراون',
       },
+
+
+
+
       ar: {
         // Navigation
         'nav.home': 'الرئيسية',
@@ -411,8 +415,8 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
         'nav.book_now': 'احجز الآن',
         
         // Hero Section
-        'hero.title': 'ارتقِ بإطلالتك مع حلول زراعة الشعر الخبيرة لدينا    ',
-        'hero.subtitle': ' إعادة تعريف الثقة من خلال زراعة شعر فاخرة في كردستان - أربيل',
+        'hero.title': 'غيّر مظهرك مع عمليات زراعة الشعر على أيدي خبراء',
+        'hero.subtitle': 'إعادة تعريف الثقة مع زراعة الشعر المتميزة في كوردستان-أربيل',
         'hero.cta': 'احجز استشارتك',
         'hero.years_experience': 'سنوات خبرة',
         'hero.happy_clients': 'عملاء سعداء',

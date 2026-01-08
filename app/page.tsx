@@ -17,7 +17,7 @@ export default function App() {
       <Gallery />
       <Instructions />
       <Products />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </div>

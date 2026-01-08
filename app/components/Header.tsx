@@ -2,7 +2,7 @@
 
 import { Menu, Phone, Instagram, Facebook } from "lucide-react";
 import { Button } from "./ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "./ui/sheet";
 import { useLanguage } from "../contexts/LanguageContext";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
@@ -59,6 +59,7 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent>
+              <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
               <div className="flex flex-col gap-6 mt-8">
                 {navItems.map((item) => (
                   <a
